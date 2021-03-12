@@ -16,10 +16,10 @@ client.on("message", function(message) {
         message.reply(`Pong! This message had a latency of ${timeTaken}ms.`);
     }
     if(command === "uwu"){
-        message.channel.send("https://youtu.be/h6DNdop6pD8!")
+        message.channel.send("https://youtu.be/h6DNdop6pD8!");
     }
     if(command == "serverinfo"){
-        message.reply("status: existing")
+        message.reply("status: existing");
     }
 })
 
