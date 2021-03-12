@@ -18,6 +18,9 @@ client.on("message", function(message) {
     if(command === "uwu"){
         message.channel.send("https://youtu.be/h6DNdop6pD8!")
     }
+    if(command == "serverinfo"){
+        message.reply("status: existing")
+    }
 })
 
 
