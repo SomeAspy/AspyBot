@@ -19,7 +19,7 @@ client.on("message", function(message) {
         message.channel.send("https://youtu.be/h6DNdop6pD8!");
     }
     if(command === "avatar"){
-        message.reply(message.author.avatarurl());
+        message.reply(message.author.displayAvatarURL());
     }
 })
 
